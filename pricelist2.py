@@ -1,0 +1,65 @@
+
+
+pricelist2 = {
+
+  "Board and Batten": [.05*labor.get('siding'),5],
+  "Masonry Siding": [.2*labor.get('mason'),15],
+  "Lap Siding": [.0425*labor.get("siding"),1.75],
+  "Shingled Siding": [.055*labor.get("siding"), 3.80],
+  "Stone Siding": [.05*labor.get("mason"), 9.55],
+  "Stucco Siding": [.1*labor.get("siding"), 2],
+  "Log Siding": [.04*labor.get("siding"), 5.90],
+  "House Wrap": [.02*labor.get("siding"), .2],
+
+  "Laminated Shingles": [1.05*labor.get("roofer"), 120],
+  "3-Tab Shingles": [1*labor.get("roofer"), 90],
+  "Roof Tile Demo": [2.75*labor.get("roofer-jr"), 0],
+  "S-Shaped Clay Tiles": [2.75*labor.get("roofer"), 340],
+  "Built Up Roofing": [2.4*labor.get("roofer"), 93.51],
+  "Shingle Removal": [.85*labor.get("roofer-jr"), 0],
+  "Metal Roofing": [3.25*labor.get('roofer'), 140],
+  "Metal Roofing Removal": [1*labor.get('roofer-jr'), 0],
+  "Metal Ridge Cap": [.045*labor.get('roofer'), 2.43],
+  "Roof Felt": [.2*labor.get("roofer"), 6],
+  "Built Up Removal": [.85*labor.get('roofer-jr'), 0],
+  "Flat Tile": [2.85*labor.get("roofer"), 350],
+  "Ridge Cap": [.03*labor.get('roofer'), 1.13],
+  "Tile Ridge Cap": [.04*labor.get('roofer'), 4.57],
+  "Metal Ridge Cap": [.045*labor.get('roofer'), 2.65],
+  "Roof Vent Flashing": [.5*labor.get('roofer'), 12.23],
+  "Drip Edge": [.02*labor.get('roofer'), .82],
+  "Detach and Reset Solar Panel": [2.5*labor.get('electrician'), 0],
+
+  "Steep Charge": [.3*labor.get('roofer'), 0],
+  "Very Steep Charge": [.8*labor.get('roofer'), 0],
+  "High Charge": [.25*labor.get('roofer'), 0],
+
+  "Valley Metal": [.1*labor.get('roofer'), 10.13],
+  "Vented Ridge Cap": [.075*labor.get('roofer'), 3],
+  "Chimney Flashing": [2.5*labor.get('roofer'), 80],
+  "Detach Satellite Dish": [.8*labor.get('roofer'), 0],
+  "Skylight Flashing": [.4*labor.get('roofer'), 88.75],
+
+  "Drywall": [.0325*labor.get("drywaller"), .52],
+  "Paint": [.01*labor.get("painter"), .25],
+  "Baseboards": [.031*labor.get('finish carpenter'),.85],
+  "Paint Baseboards": [.025*labor.get('painter'), .18],
+  "Insulation": [.02*labor.get('drywaller'), .8],
+
+  "Board Fence": [.35*labor.get('fence'), 22],
+  "Chain Link Fence": [.225*labor.get('fence'), 7],
+  "Wrought Iron Fence": [.3*labor.get('fence'), 45],
+  "Picket Fence": [.02*labor.get('fence'), 7.84],
+  "Rail Fence": [.25*labor.get("fence"), 10.75],
+  "Paint Fence": [.0125*labor.get("painter"),.29],
+
+  "Carpet": [.0225*labor.get('flooring'), 3],
+  "Vinyl": [.0425*labor.get('flooring'), 2],
+  "Engineered": [.1*labor.get('flooring'), 7.25],
+  "Laminated": [.06*labor.get('flooring'), 3.25],
+  "Vapor Barrier": [.2*labor.get("flooring"), .45],
+  "Reducer Strip": [.015*labor.get("flooring"), 6.05],
+
+  "Debris Haul": [2.5*labor.get("garbageman"), 60],
+  "Dumpster": [0, 575],
+}

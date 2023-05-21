@@ -1,0 +1,28 @@
+item {
+  id: 1
+  name: 'mil'
+}
+item {
+  id: 2
+  name: 'civ'
+}
+
+item {
+  id: 3
+  name: 'uniformed'
+}
+
+item {
+  id: 4
+  name: 'kid'
+}
+
+item {
+  id: 5
+  name: 'head'
+}
+
+item {
+  id: 6
+  name: 'torso'
+}

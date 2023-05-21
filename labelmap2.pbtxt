@@ -1,0 +1,28 @@
+item {
+    id: 1
+    name: 'board'
+}
+item {
+    id: 2
+    name: 'brick'
+}
+item {
+    id: 3
+    name: 'lap'
+}
+item{
+    id: 4
+    name: 'log'
+}
+item {
+    id: 5
+    name: 'shingled'
+}
+item {
+    id: 6
+    name: 'stone'
+}
+item {
+    id: 7
+    name: 'stucco'
+}
